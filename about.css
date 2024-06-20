@@ -1,0 +1,88 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-image: url(bgimg.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  }
+.background-image{
+    filter: blur(50px);
+}
+.sidetext h2{
+    color: rgb(203, 12, 12);
+    font-weight: 100;
+    font-size: 2.4rem;
+}
+.sidetext p{
+    color: rgb(248, 76, 110);
+    font-weight: 100;
+    font-size: 1.4rem;
+    line-height: 2;
+}
+.context{
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+    background-color: #003C43;  
+}
+#mainNavbar .nav-link{
+color:  #4d7d83;
+font-size: 1.3rem;
+font-weight: 400;
+display: flex;
+
+}
+#mainNavbar .nav-link:hover{
+ color:#d2fff3;
+ font-size: 1.3rem;
+ font-weight: 500;
+ text-decoration: underline;
+ top: -2px;
+ 
+}
+#mainNavbar .navbar-brand{
+    color: #77B0AA;
+    font-size: 1.8rem;
+    font-weight:700;
+    text-align: center;
+
+}
+#headingGroup span{
+color: #C5FF95 ;
+
+}
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+.navbar{
+    background: none;
+    transition: background 300ms;
+border-radius: 10px;
+margin-top: 30px;
+width: 280PX;
+max-width: fit-content;
+margin-left: auto;
+margin-right: auto;
+
+}
+@media(max-width:1200px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem; 
+}
+}
+#headingGroup span{
+    color:  rgb(203, 12, 12);
+    }
+#headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
