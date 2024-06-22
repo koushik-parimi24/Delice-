@@ -182,3 +182,16 @@ form.d-flex button[type="submit"]:hover {
         margin-top: 20px;
     }
 }
+#loadingSpinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050; /* High z-index to overlay everything */
+}
+
+#loadingSpinner .spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
