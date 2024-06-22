@@ -51,10 +51,15 @@
         <div id="popupSearch" class="d-none">
             <form class="d-flex" role="search" id="popupSearchForm">
                 <input class="form-control me-2" type="search" placeholder="Enter ingredients" aria-label="Search" id="popupSearchInput">
-                <button class="btn btn-outline-success" type="submit" id="popupSearchButton">Search</button>
+                <button class="btn btn-outline-success" type="submit" id="popupSearchButton" onclick="spinner()">Search</button>
             </form>
         </div>
-
+        <div id="loadingSpinner" class="d-none">
+            <div class="spinner-border text-success" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    
         <div id="results" class="mt-5"></div>
     </div>
     <div class="overlay"></div>   
